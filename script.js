@@ -1,0 +1,1 @@
+const c=document.getElementById('game'),x=c.getContext('2d');x.fillStyle='white';x.font='40px Arial';function draw(){x.clearRect(0,0,c.width,c.height);x.fillText('Bubble Shooter Deluxe',220,120);requestAnimationFrame(draw)}draw();
